@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main class="rating">
+      <div class="animate__animated rating__card rating__card--rate">
+        <div class="rating__icon-container">
+          <img src="assets/images/icon-star.svg" alt="star icon" />
+        </div>
+        <div class="rating__data">
+          <h1 class="rating__title">How did we do? 1</h1>
+          <p class="rating__description">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="rating__numbers">
+          <div class="rating__number">1</div>
+          <div class="rating__number">2</div>
+          <div class="rating__number">3</div>
+          <div class="rating__number">4</div>
+          <div class="rating__number">5</div>
+        </div>
+        <button
+          type="submit"
+          class="pill--container rating__button"
+          id="submit"
+        >
+          SUBMIT
+        </button>
+      </div>
+      <div class="animate__animated rating__card rating__card--thank hidden">
+        <div class="rating__image">
+          <img src="assets/images/illustration-thank-you.svg" alt="" />
+        </div>
+
+        <div class="pill--container rating__tag">
+          <p class="rating__info">You selected 4 out of 5</p>
+        </div>
+
+        <div class="rating__data">
+          <h1 class="rating__title">Thank you!</h1>
+          <p class="rating__description">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don't hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
