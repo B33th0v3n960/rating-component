@@ -17,14 +17,12 @@ rate.forEach((number) =>
 
 submitBtn.addEventListener("click", () => {
   if (active) {
-    console.log(cards);
     cards.forEach((card) => {
       if (card.classList.contains("hidden")) {
         card.classList.remove("hidden");
       } else {
         card.classList.add("hidden");
       }
-      console.log(active.innerHTML);
       tag.innerText = `You selected ${active.innerHTML} out of 5`;
     });
   } else {

@@ -50,4 +50,4 @@ Users should be able to:
 ## Author
 
 - Website - [Zhou Sun]
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@B33th0v3n960](https://www.frontendmentor.io/profile/B33th0v3n960)
